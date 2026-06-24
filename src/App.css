@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 20px;
+}
+
+
 :root {
   /* Primary Colors */
   --primary: #3b5bdb; /* Blue - header, buttons, accents */

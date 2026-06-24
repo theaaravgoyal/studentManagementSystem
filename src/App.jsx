@@ -1,6 +1,7 @@
 import { useState } from "react";
 import StudentForm from "./components/StudentForm";
 import StudentCard from "./components/StudentCard";
+
 const initialStudents = [
   {
     id: 1,
@@ -32,32 +33,37 @@ const initialStudents = [
   },
 ];
 
-let nextId = initialStudents.length + 1;
 function App() {
   const [students, setStudents] = useState(initialStudents);
-  const numberOfStudents = students.length;
 
-  const handleAddStudent = (data) => {
-    setStudents((prev) => [...prev, { id: nextId++, ...data }]);
+  const handleAddStudent = (studentData) => {
+    const newStudent = {
+      id: Date.now(),
+      ...studentData,
+    };
+
+    setStudents((prev) => [...prev, newStudent]);
   };
 
   return (
     <>
       <header className="px-5 lg:px-20 flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-3 py-10 bg-(--primary-dark)">
         <div className="flex flex-row justify-center items-center gap-4 lg:gap-6 text-2xl sm:text-3xl lg:text-4xl font-extrabold text-center text-(--text-light)">
-          <div className="hidden sm:inline-block w-fit h-fit">
+          <div className="hidden sm:inline-block">
             <i className="fa-solid fa-graduation-cap"></i>
           </div>
           <h1>Student Management System</h1>
         </div>
-        <div className="flex flex-row flex-nowrap justify-center items-center gap-2 bg-(--primary-light) text-(--text-light) w-fit h-fit px-2 py-1 text-[10px] sm:text-sm rounded-xl">
+
+        <div className="flex flex-row items-center gap-2 bg-(--primary-light) text-(--text-light) px-2 py-1 text-[10px] sm:text-sm rounded-xl">
           <i className="fa-solid fa-user-group"></i>
           <h6>
             Total Students :{" "}
-            <span className="font-bold">{numberOfStudents}</span>
+            <span className="font-bold">{students.length}</span>
           </h6>
         </div>
       </header>
+
       <main
         className="flex-col flex lg:flex-row justify-center items-center gap-5 px-5 lg:px-10 my-10"
         style={{ background: "var(--bg-page)", minHeight: "80vh" }}
