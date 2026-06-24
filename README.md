@@ -1,16 +1,99 @@
-# React + Vite
+```md
+# 🎓 Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Student Management System built using **React**, **Tailwind CSS**, **HTML5**, and **CSS3**. This application allows users to manage student records through an intuitive and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new student records
+- 📋 View all students
+- ✏️ Edit student information
+- 🗑️ Delete student records
+- 🔍 Search and filter students
+- 📱 Fully responsive design
+- ⚡ Fast and modern React-based interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+student-management-system/
+│
+├── public/
+├── src/
+│ ├── components/
+│ ├── assets/
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+````
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/student-management-system.git
+````
+
+### 2. Navigate to Project Directory
+
+```bash
+cd student-management-system
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start Development Server
+
+```bash
+npm run dev
+```
+
+### 5. Open in Browser
+
+```text
+http://localhost:5173
+```
+
+## 🎯 Purpose
+
+This project was developed to practice and demonstrate frontend development skills using React and Tailwind CSS while building a practical student record management application.
+
+## 🔮 Future Enhancements
+
+- Local Storage Support
+- Database Integration
+- Authentication System
+- Student Attendance Tracking
+- Data Export (PDF/Excel)
+- Dark Mode
+
+## 👨‍💻 Author
+
+**Aarav Goyal**
+
+- Graphic Designer
+- Video Editor
+- Web Development Student
+
+⭐ If you found this project useful, consider giving it a star.
+
+```
+
+```
