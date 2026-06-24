@@ -1,4 +1,3 @@
-````md
 # Student Management System
 
 A responsive Student Management System built using React, Tailwind CSS, HTML, CSS, and JavaScript. The application allows users to manage student records through a clean and user-friendly interface.
@@ -24,38 +23,20 @@ A responsive Student Management System built using React, Tailwind CSS, HTML, CS
 
 1. Clone the repository
 
-```bash
 git clone https://github.com/your-username/student-management-system.git
-````
 
 2. Navigate to the project directory
 
-```bash
 cd student-management-system
-```
 
 3. Install dependencies
 
-```bash
 npm install
-```
 
 4. Start the development server
 
-```bash
 npm run dev
-```
 
-## Project Structure
-
-```text
-src/
-├── components/
-├── assets/
-├── App.jsx
-├── main.jsx
-└── index.css
-```
 
 ## Purpose
 
@@ -71,6 +52,3 @@ This project was developed to practice React and Tailwind CSS while building a s
 ## Author
 
 Aarav Goyal
-
-```
-```
