@@ -1,7 +1,36 @@
 import { useState } from "react";
 import StudentForm from "./components/StudentForm";
 import StudentCard from "./components/StudentCard";
-const initialStudents = [];
+const initialStudents = [
+  {
+    id: 1,
+    name: "Rahul Sharma",
+    course: "Full Stack Web Development",
+    email: "rahul@example.com",
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "Priya Verma",
+    course: "UI/UX Designing",
+    email: "priya@example.com",
+    status: "Active",
+  },
+  {
+    id: 3,
+    name: "Amit Kumar",
+    course: "Digital Marketing",
+    email: "amit@example.com",
+    status: "Active",
+  },
+  {
+    id: 4,
+    name: "Sneha Patel",
+    course: "Video Editing",
+    email: "sneha@example.com",
+    status: "Inactive",
+  },
+];
 
 let nextId = initialStudents.length + 1;
 function App() {
