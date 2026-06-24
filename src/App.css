@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary Colors */
+  --primary: #3b5bdb; /* Blue - header, buttons, accents */
+  --primary-dark: #2f4ac2; /* Darker blue - header background */
+  --primary-light: #87a4fd; /* Light blue - icon backgrounds */
+
+  /* Status Colors */
+  --active: #40c057; /* Green - Active badge */
+  --inactive: #fd7e14; /* Orange - Inactive badge */
+  --active-bg: #d3f9d8; /* Light green - Active badge background */
+  --inactive-bg: #ffe8cc; /* Light orange - Inactive badge background */
+
+  /* Text Colors */
+  --text-primary: #1a1a2e; /* Dark - Student names, headings */
+  --text-secondary: #5c6370; /* Grey - Email, subtext */
+  --text-light: #ffffff; /* White - Header text */
+
+  /* Background Colors */
+  --bg-page: #f0f2f5; /* Light grey - Page background */
+  --bg-card: #ffffff; /* White - Card background */
+  --bg-input: #ffffff; /* White - Input fields */
+
+  /* Border Colors */
+  --border: #e2e8f0; /* Light grey - Input & card borders */
+  --border-focus: #3b5bdb; /* Blue - Focused input border */
+
+  /* Action Buttons */
+  --btn-edit-border: #3b5bdb; /* Blue - Edit button border */
+  --btn-edit-icon: #3b5bdb; /* Blue - Edit icon */
+  --btn-delete-border: #fa5252; /* Red - Delete button border */
+  --btn-delete-icon: #fa5252; /* Red - Delete icon */
+
+  /* Tip Box */
+  --tip-bg: #eef2ff; /* Very light blue - Tip section background */
+  --tip-icon: #3b5bdb; /* Blue - Tip bulb icon */
+
+  /* Misc */
+  --shadow: rgba(0, 0, 0, 0.08); /* Card shadows */
+  --underline: #3b5bdb; /* Blue underline below section titles */
+}
+
+* {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--bg-page);
+}
