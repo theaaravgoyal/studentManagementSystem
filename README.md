@@ -23,7 +23,7 @@ A responsive Student Management System built using React, Tailwind CSS, HTML, CS
 
 1. Clone the repository
 
-git clone https://github.com/your-username/student-management-system.git
+git clone <url>
 
 2. Navigate to the project directory
 
