@@ -45,7 +45,7 @@ function StudentCard({ students, setStudents }) {
     >
       {/* Header */}
       <div className="flex flex-col gap-3">
-        <div className="flex flex-row flex-nowrap items-center justify-between gap-2">
+        <div className="flex flex-row flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <div className="flex items-center justify-center rounded-full text-(--text-light) w-8 h-8 text-sm bg-(--primary-light)">
               <i className="fa-solid fa-users"></i>
@@ -55,7 +55,7 @@ function StudentCard({ students, setStudents }) {
             </h3>
           </div>
 
-          <div className="relative hidden sm:inline-block">
+          <div className="relative inline-block">
             <i className="fa-solid fa-magnifying-glass text-[11px] absolute left-3 top-1/2 -translate-y-1/2 text-(--text-secondary)" />
             <input
               type="text"
